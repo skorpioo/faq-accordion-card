@@ -40,13 +40,13 @@
       init: function init() {
         var _this2 = this;
         var defaults = {
-          duration: 600, // animation duration in ms {number}
+          duration: 300, // animation duration in ms {number}
           ariaEnabled: true, // add ARIA elements to the HTML structure {boolean}
           collapse: true, // allow collapse expanded panel {boolean}
           showMultiple: false, // show multiple elements at the same time {boolean}
           openOnInit: [], // show accordion elements during initialization {array}
           elementClass: 'ac', // element class {string}
-          triggerClass: 'ac-trigger', // trigger class {string}
+          triggerClass: 'ac-header', // trigger class {string}
           panelClass: 'ac-panel', // panel class {string}
           activeClass: 'is-active', // active element class {string}
           beforeOpen: function beforeOpen() {}, // calls before the item is opened {function}
