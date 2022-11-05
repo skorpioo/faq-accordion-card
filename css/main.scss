@@ -116,17 +116,17 @@ main {
 	}
 
 	.ac {
-		// padding: 1.6rem 0;
 		border-bottom: 0.1rem solid var(--dividers);
 
 		.ac-header {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			padding-right: 1.5rem;
+			cursor: pointer;
+			padding: 1.6rem 1.5rem 1.6rem 0;
 
 			.ac-arrow {
-				transition: transform 250ms ease-in-out;
+				transition: transform 300ms ease-in-out;
 			}
 		}
 
@@ -134,11 +134,9 @@ main {
 			font-size: 1.4rem;
 			color: var(--dark-text);
 			text-align: left;
-			line-height: 4.95rem;
 			width: 100%;
 			display: block;
 			transition: all 250ms ease;
-			cursor: pointer;
 			position: relative;
 
 			&:hover {
@@ -155,7 +153,6 @@ main {
 			.ac-text {
 				font-size: 1.2rem;
 				color: var(--grey-text);
-				// margin-top: 1rem;
 				margin-bottom: 1.6rem;
 			}
 		}
@@ -170,15 +167,11 @@ main {
 			.ac-panel {
 				visibility: visible;
 			}
-		}
 
-		&.is-active {
 			.ac-trigger {
 				font-weight: 700;
 			}
-		}
 
-		&.is-active {
 			.ac-arrow {
 				transform: rotate(180deg);
 			}

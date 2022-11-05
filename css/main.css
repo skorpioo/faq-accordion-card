@@ -142,26 +142,25 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-right: 1.5rem;
+  cursor: pointer;
+  padding: 1.6rem 1.5rem 1.6rem 0;
 }
 
 .accordion .ac .ac-header .ac-arrow {
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
 }
 
 .accordion .ac .ac-trigger {
   font-size: 1.4rem;
   color: var(--dark-text);
   text-align: left;
-  line-height: 4.95rem;
   width: 100%;
   display: block;
   -webkit-transition: all 250ms ease;
   transition: all 250ms ease;
-  cursor: pointer;
   position: relative;
 }
 
